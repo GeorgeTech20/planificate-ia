@@ -28,10 +28,10 @@ function TripForm() {
         if (!data.place.match(/^[a-zA-Z\s]+$/)) {
             Errors.place = "El nombre del lugar debe contener solo letras.";
         }
-        if (data.days > 15 || data.days < 1) {
+        if (data.days > 55 || data.days < 1) {
             Errors.days = "La estancia como maximo es de 15 dias.";
         }
-        if (data.money > 3000 || data.money <= 50) {
+        if (data.money > 10000 || data.money <= 50) {
             Errors.money = "El presupuesto minimo es de 50 y maximo de 3000 soles.";
         }
         return Errors;
