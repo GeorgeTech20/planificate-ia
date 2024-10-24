@@ -37,4 +37,4 @@ export const chatSession = model.startChat({
     ],
 });
 
-export const PROMPT = "Genera un plan de viaje para la ubicación: {location}, por {days} días con un presupuesto de {money} soles, dame una lista de opciones de hotel con el nombre del hotel, la dirección del hotel y el precio, también sugiere un itinerario con el nombre del lugar, los detalles del lugar y la URL de la ubicación para {days} días. con un plan para cada día con el mejor horario para visitar en formato JSON."
+export const PROMPT = "Genera un plan de viaje para la ubicación: {location}, por {days} días con un presupuesto de {money} soles, dame una lista de opciones de hotel con el nombre del hotel, la dirección del hotel, valoración y el precio en formato 'S/. valor1 - valor2' o 'S/. valor1', también sugiere un itinerario con el nombre del lugar, los detalles del lugar y link de ubicación de google maps para {days} días. con un plan para cada día con el mejor horario para visitar en formato JSON."

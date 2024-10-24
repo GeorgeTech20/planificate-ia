@@ -2,3 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Overused Grotesk";
+    src: url(/OverusedGrotesk-Medium.woff2) format(woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(/Inter-Regular.woff2) format(woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(/Inter-Medium.woff2) format(woff2);
+    font-weight: 500;
+    font-display: swap;
+}
+
+::selection {
+    background-color: #E1FFB8;
+    color: #272727;
+}
+
+.bg-blur {
+    background: rgba(148, 148, 148, 0.568);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
