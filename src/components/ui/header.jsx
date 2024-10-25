@@ -1,7 +1,7 @@
 function Header() {
     return (
         <header className="pt-10">
-            <img src="/public/logo.svg" alt="Planificate IA logo" />
+            <img src="/logo.svg" alt="Planificate IA logo" />
         </header>
     )
 }
